@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Toggle from './components/Toggle'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Toggle />
   </React.StrictMode>,
   document.getElementById('root')
 );
